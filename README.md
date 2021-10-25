@@ -45,9 +45,10 @@ Once you have the first test passing, build out the following methods:
 - `MyQueue#remove`: removes and returns the first element in the `Queue`
 - `MyQueue#peek`: returns the first element in the `Queue` without removing it
 
-Note: in solving this challenge, you can only use the three methods included in
-the `Stack` implementation — `#push`, `#pop`, and `#peek` — and the **two**
-instances of `Stack` that are created when the `Queue` instance is initialized.
+Note: in solving this challenge, you can only use the four methods included in
+the `Stack` implementation — `#push`, `#pop`, `#peek`, and `#empty?` — and the
+**two** instances of `Stack` that are created when the `MyQueue` instance is
+initialized.
 
 ## Conclusion
 
