@@ -1,11 +1,11 @@
-class MyStack
+class Stack
 
   def initialize
     @stack = []
   end
 
-  def push(item)
-    @stack.push(item)
+  def push(value)
+    @stack.push(value)
   end
 
   def pop
@@ -13,7 +13,7 @@ class MyStack
   end
 
   def peek
-    @stack[@stack.length - 1]
+    @stack.last
   end
 
 end
