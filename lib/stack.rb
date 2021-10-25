@@ -16,4 +16,8 @@ class Stack
     @stack.last
   end
 
+  def empty?
+    @stack.empty?
+  end
+
 end
