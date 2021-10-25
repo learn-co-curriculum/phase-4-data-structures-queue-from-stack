@@ -50,6 +50,8 @@ the `Stack` implementation — `#push`, `#pop`, `#peek`, and `#empty?` — and t
 **two** instances of `Stack` that are created when the `MyQueue` instance is
 initialized.
 
+<!-- TODO: add hint(s) to help students get started -->
+
 ## Conclusion
 
 As you can probably imagine, implementing a `Queue` using two `Stack`s is not the
