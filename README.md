@@ -14,7 +14,7 @@ in **"First In, First Out"** (FIFO) order. We used as a real-world example of a
 checkpoint: the passenger who joined the line first will be the first to pass
 through security (most of the time, anyway).
 
-<!-- TODO: add image -->
+![stack-vs-queue](https://curriculum-content.s3.amazonaws.com/phase-4/phase-4-data-structures-queue-from-stack/stack-vs-queue.png)
 
 Because the behavior of a `Queue` is a bit different from that of a `Stack`, the
 method names that are used (by convention) are a bit different as well. Rather
@@ -30,7 +30,7 @@ In this lab, you will implement a `MyQueue` class, but you will be doing it a
 bit differently than you did for the `Stack` class. Specifically, you will use
 `Stack` as the underlying data structure rather than an array. We have included
 the code in `lib/stack.rb`. We have also required that file in
-`lib/queue_from_stack.rb`, where you will be coding your response.
+`lib/queue_from_stack.rb`, where you will be coding your solution.
 
 ## Instructions
 
@@ -50,11 +50,16 @@ the `Stack` implementation — `#push`, `#pop`, `#peek`, and `#empty?` — and t
 **two** instances of `Stack` that are created when the `MyQueue` instance is
 initialized.
 
-<!-- TODO: add hint(s) to help students get started -->
+**Hints:** If you're having a little trouble figuring out how to approach this
+problem, give some thought to the following questions:
+
+1. Which method is implemented in the same way for both `Stack`s and `Queue`s?
+2. What will happen if you `pop` each element off of one `Stack` instance and
+   `push` it onto another?
 
 ## Conclusion
 
-As you can probably imagine, implementing a `Queue` using two `Stack`s is not the
-the most efficient way to go. Hopefully, however, building out this class gave
-you a good feel for the difference between the two data structures and how they
-process records.
+As you can probably imagine, implementing a `Queue` using a `Stack` as the
+underlying data structure is not the the most efficient way to go. Hopefully,
+however, building out this class gave you a good feel for the difference in how
+these two data structures process records.
