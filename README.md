@@ -50,12 +50,11 @@ the `Stack` implementation — `#push`, `#pop`, `#peek`, and `#empty?` — and t
 **two** instances of `Stack` that are created when the `MyQueue` instance is
 initialized.
 
-**Hints:** If you're having a little trouble figuring out how to approach this
-problem, give some thought to the following questions:
-
-1. Which method is implemented in the same way for both `Stack`s and `Queue`s?
-2. What will happen if you `pop` each element off of one `Stack` instance and
-   `push` it onto another?
+**Hint:** If you're having a little trouble figuring out how to approach this
+problem, give some thought to what will happen if you `pop` each element off of
+one `Stack` instance and `push` it onto another. You should be able to use this
+information to set up your `add` method such that the order of the elements is
+correct for using `#push` and `#pop`.
 
 ## Conclusion
 
